@@ -6,6 +6,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('2017.csv')
 st.set_page_config(page_title = 'Dog Breeds', layout = 'wide')
 
-st.title('Streamlit Demo Using Dog Breed Data Set')
+st.title('Streamlit Demo Using Dog Data Set')
 st.write(df)
 
